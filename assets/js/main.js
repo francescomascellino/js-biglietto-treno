@@ -7,12 +7,6 @@ va applicato uno sconto del 40% per gli over 65.
 L'output del prezzo finale va stampato in forma umana (ovvero con massimo due decimali, per indicare i centesimi sul prezzo). Questo richiederà un minimo di ricerca nella documentazione di JS. 
 */
 
-// prompt km 
-// prompt età 
-// if km o età isNaN messaggio di errore 
-// se l'età è inferiore a 18 sconto del 20% su 0.21 * km
-// se l'età è maggiore a 65 sconto del 40% su 0.21 * km
-
 const button = document.getElementById("generatePrice");
 const result = document.getElementById("priceResult");
 
