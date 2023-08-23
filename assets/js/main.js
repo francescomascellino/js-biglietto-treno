@@ -46,7 +46,7 @@ button.addEventListener("click", function priceCalc()
         else if (age > 65) {
             const price = distance * 0.21;
             console.log("Il prezzo è " + price);
-            const discount40 = (price * 20) / 100;
+            const discount40 = (price * 40) / 100;
             console.log("lo sconto applicato è: " + discount40);
             const discountedPrice = (price - discount40).toFixed(2);
             console.log("Il prezzo scontato del biglietto è " + discountedPrice);
